@@ -1,23 +1,25 @@
+import random
 import my_module as backend_file
 
 GUI='''
-                        - - - - - - - - - - - - - - - - - - - - - -
-                       |                                            |
-                       |                                            |
-                       |            W E L C O M E  T O              |
-                       |   P R I V A T E   B A N K  O F  I N D I A  |
-                       |                                            |
-                       |                                            |
-                       |  Functionality                             |
-                       |  - - - - - - -                             |
-                       |                                            |
-                       |  . Check Balance                           |
-                       |  . WithDrawal Of Money                     |
-                       |  . Deposition of Money                     |
-                       |  . Returning Of Your Card                  |
-                       |                                            |
-                        - - - - - - - - - - - - - - - - - - - - - -
+                 - - - - - - - - - - - - - - - - - - - - - -
+                |                                            |
+                |                                            |
+                |               WELCOME  TO                  |
+                |       PRIVATE  BANK  OF THE  WORLD         |
+                |                                            |
+                |                                            |
+                |  Functionality                             |
+                |  - - - - - - -                             |
+                |                                            |
+                |  . Checking Balance                        |
+                |  . WithDrawal Of Money                     |
+                |  . Deposition of Money                     |
+                |  . Returning Your Card                     |
+                |                                            |
+                 - - - - - - - - - - - - - - - - - - - - - -
 '''
+
 
 correct_pin=9990
 pin_count=0
