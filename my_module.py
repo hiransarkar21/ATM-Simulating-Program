@@ -2,7 +2,7 @@
 
 import sys
 
-current_balance=12342
+current_balance = 500
 
 # GUI explaining which key does which function -----
 
@@ -31,8 +31,8 @@ def crediting_process():
     print()
     global current_balance
     current_balance -= default_input
-    print(" WithDrawl Of Amount {} Was Successfull .".format(default_input))
-    print(" Current Balance is {} .".format(current_balance))
+    print(" WithDrawl Of Amount $ {} Was Successfull .".format(default_input))
+    print(" Current Balance is $ {} .".format(current_balance))
     print()
     
 
@@ -41,8 +41,8 @@ def depositing_process():
     print()
     global current_balance
     current_balance += default_input
-    print(" Deposition of Amount {} Was Successful .".format(default_input))
-    print(" Current Balance is {} .".format(current_balance))
+    print(" Deposition of Amount $ {} Was Successful .".format(default_input))
+    print(" Current Balance is $ {} .".format(current_balance))
     print()
 
 def returning_card_process():
