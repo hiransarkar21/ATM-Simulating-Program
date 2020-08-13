@@ -1,6 +1,7 @@
 # ATM Simulating Program
 
 import sys
+import time
 
 current_balance = 500
 
@@ -49,5 +50,6 @@ def returning_card_process():
     print(" Returning Card . Please Wait . ")
     print(" Your Card Has Been Ejected . Thank You For Using our Service .")
     print()
+    time.sleep(2)
     exit()
 # Main Functions Ended --------
