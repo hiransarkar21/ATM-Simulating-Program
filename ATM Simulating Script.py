@@ -1,4 +1,3 @@
-import random
 import my_module as backend_file
 
 GUI='''
@@ -20,8 +19,7 @@ GUI='''
                         - - - - - - - - - - - - - - - - - - - - - -
 '''
 
-pins=["1239","0001","3245","9990"]
-correct_pin=random.choice(pins)
+correct_pin=9990
 pin_count=0
 
 print(GUI)
